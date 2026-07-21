@@ -2,6 +2,7 @@ import customtkinter as ctk
 import psutil
 
 janela = ctk.CTk()
+janela.title("CPUeMEMORIA")
 janela.geometry("400x250")
 
 cpu_texto = ctk.CTkLabel(janela, text="CPU: 0%")
